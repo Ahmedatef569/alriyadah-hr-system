@@ -1,0 +1,24 @@
+{
+    "name": "Al-Riyadah HR Management System",
+    "short_name": "Al-Riyadah HR",
+    "description": "Complete HR Management System for Al-Riyadah - employee database, leaves, overtime, payroll and more.",
+    "start_url": "/alriyadah-hr-system/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#2563eb",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%232563eb' rx='15'/><g fill='white'><path d='M30 25c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 15c-5.5 0-10 4.5-10 10v5h20v-5c0-5.5-4.5-10-10-10z'/><path d='M70 25c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 15c-5.5 0-10 4.5-10 10v5h20v-5c0-5.5-4.5-10-10-10z'/><path d='M50 35c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 18c-6.6 0-12 5.4-12 12v10h24v-10c0-6.6-5.4-12-12-12z'/></g></svg>",
+            "sizes": "192x192",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%232563eb' rx='15'/><g fill='white'><path d='M30 25c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 15c-5.5 0-10 4.5-10 10v5h20v-5c0-5.5-4.5-10-10-10z'/><path d='M70 25c-2.8 0-5 2.2-5 5s2.2 5 5 5 5-2.2 5-5-2.2-5-5-5zm0 15c-5.5 0-10 4.5-10 10v5h20v-5c0-5.5-4.5-10-10-10z'/><path d='M50 35c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm0 18c-6.6 0-12 5.4-12 12v10h24v-10c0-6.6-5.4-12-12-12z'/></g></svg>",
+            "sizes": "512x512",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}
