@@ -1,0 +1,17 @@
+name: Keep Supabase Alive
+
+on:
+  schedule:
+    - cron: '0 0 */5 * *'  # Runs every 5 days at midnight
+
+jobs:
+  ping-supabase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        run: |
+          curl -X POST "https://${{ secrets.jomzhsbkofcoocqhqsol }}.supabase.co/rest/v1/rpc/ping" \
+               -H "apikey: ${{ secrets.eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpvbXpoc2Jrb2Zjb29jcWhxc29sIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA4MzU5MzYsImV4cCI6MjA2NjQxMTkzNn0.YhP1cyQXwEXxcLkz22eEc5olCoSIiYccLmqoCjS8Dog }}" \
+               -H "Content-Type: application/json" \
+               -H "Accept: application/json" \
+               --data '{}'
